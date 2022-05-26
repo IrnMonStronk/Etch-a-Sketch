@@ -13,7 +13,7 @@ body {
 }
 #container { 
     width: 100%;
-    height: 31em;
+    height: 35em;
     display: grid;
     background-color: white;
 }
