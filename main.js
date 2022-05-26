@@ -19,6 +19,7 @@ function createBoxes(numBox) {
         square.classList.add('box');
         container.appendChild(square);
     }
+//Adding variables for the color modes, at the time Shader was not implemented
     const cells = document.querySelectorAll('.box');
     const noir = document.querySelector('#noir');
     const shader = document.querySelector('#shader');
@@ -42,7 +43,7 @@ function createBoxes(numBox) {
         colorMode = 'white';
         return colorMode;
     })
-//An eventListener for the hover effect. touchmove insead of mouseover for mobile
+//An eventListener for the hover effect.
     cells.forEach((box) => {
         box.addEventListener('mouseover', () => {
             if ( colorMode === 'noir' ) {
