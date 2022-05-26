@@ -45,7 +45,7 @@ function createBoxes(numBox) {
     })
 //An eventListener for the hover effect.
     cells.forEach((box) => {
-        box.addEventListener('mouseover', () => {
+        box.addEventListener('touchstart', () => {
             if ( colorMode === 'noir' ) {
                 box.style.backgroundColor = 'black';
             }
