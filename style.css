@@ -52,7 +52,7 @@ button:hover {
 }
 
 h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Apple Chancery, cursive;
     font-weight: lighter;
     width: 100%;
     margin: 5px;
@@ -65,7 +65,20 @@ h1 {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(209,26,26,1) 25%, rgba(254,0,0,1) 50%, rgba(209,26,26,1) 75%, rgba(0,0,0,1) 100%);
 }
 
+p {
+    font-family: Arial Narrow, sans-serif;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    margin: 0px;
+    padding: 0px;
+}
 
+#shader {
+    color: gray
+}
+#shader:hover {
+    background-color: rgb(223, 221, 221);
+}
 footer{
     font-size: 25px;
     bottom: 0;
