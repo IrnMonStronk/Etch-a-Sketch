@@ -53,6 +53,7 @@ button:hover {
 
 h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
     width: 100%;
     margin: 5px;
     padding: 10px;
