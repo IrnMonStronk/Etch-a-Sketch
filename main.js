@@ -45,7 +45,7 @@ function createBoxes(numBox) {
     })
 //An eventListener for the hover effect.
     cells.forEach((box) => {
-        box.addEventListener('touchstart', () => {
+        box.addEventListener('touchmove', () => {
             if ( colorMode === 'noir' ) {
                 box.style.backgroundColor = 'black';
             }
@@ -60,7 +60,7 @@ function createBoxes(numBox) {
             }
         })
 //Added an eventListener remover to handle the mem leak i was experiencing
-        box.removeEventListener('touchstart', () => {
+        box.removeEventListener('touchmove', () => {
             if ( colorMode === 'noir' ) {
                 box.style.backgroundColor = 'black';
             }
